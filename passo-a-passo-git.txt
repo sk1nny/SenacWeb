@@ -18,4 +18,4 @@ passo 4: ver o STATUS
     -git status
         
 passo 5: ver log
-    -git log
+    -git logasdas
