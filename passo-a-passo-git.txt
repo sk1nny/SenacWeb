@@ -1,0 +1,21 @@
+passo a passo do GIT
+
+passo 0: comfigurar o GIT
+    - git config --global user.name "JeanSenac007"
+    - git config --global user.email jikapieri@gmail.com
+    - git config --global color.ui true
+    
+passo 1: iniciar o GIT , ciando um repositório
+    - git init
+    
+passo 2: adicionar os arquivos no INDEX
+    - git add .
+    
+passo 3: criar a primeira versão / commit
+    - git commi -m "primeira versão"
+    
+passo 4: ver o STATUS
+    -git status
+        
+passo 5: ver log
+    -git log
