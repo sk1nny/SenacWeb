@@ -10,32 +10,12 @@ body {
     border: 1px solid #000; /* borda */
     border-radius: 5px; /* borda arredondada */
     padding: 10px; /* espaco interno */
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
     
-    float: left; /* flutuar para esquerda */
-    width: 100%; /* largura do elemento */
+    
 }
-
-.logo {
-    float: left;
-}
-
-.menu {
-    float: left;
-    margin-left: 300px;
-    margin-right: 200px;
-    margin-top: 15px;
-}
-
-.menu-link {
-    display: inline-block;
-    margin-right: 5px;
-}
-
-.form-perquisa {
-    float: left;
-    margin-top: 15px;
-}
-
 
 
 
@@ -51,4 +31,10 @@ li {
     
     /* deixar um ao lado do outro */
     display: inline-block;
+}
+
+.centralizar {
+    margin-right: auto;
+    margin-left: auto;
+    width: 500px;
 }
