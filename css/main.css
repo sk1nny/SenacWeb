@@ -1,0 +1,54 @@
+body {
+    /* cor do fundo */
+    background-color: #eee;
+    
+    /* alterar a fonte dos textos da página */
+    font-family: 'Roboto', sans-serif;
+}
+
+#cabecalho {
+    border: 1px solid #000; /* borda */
+    border-radius: 5px; /* borda arredondada */
+    padding: 10px; /* espaco interno */
+    
+    float: left; /* flutuar para esquerda */
+    width: 100%; /* largura do elemento */
+}
+
+.logo {
+    float: left;
+}
+
+.menu {
+    float: left;
+    margin-left: 300px;
+    margin-right: 200px;
+    margin-top: 15px;
+}
+
+.menu-link {
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.form-perquisa {
+    float: left;
+    margin-top: 15px;
+}
+
+
+
+
+h1 {
+    /* propriedade: valor; */
+    color: red;
+}
+
+
+li {
+    /* tirar os pontos */
+    list-style: none;
+    
+    /* deixar um ao lado do outro */
+    display: inline-block;
+}
