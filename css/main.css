@@ -1,40 +1,74 @@
+/* GERAL */
 body {
-    /* cor do fundo */
+    /* Cor do Fundo  */
     background-color: #eee;
     
-    /* alterar a fonte dos textos da página */
+    /* Alterar a Fonte dos textos da página */
     font-family: 'Roboto', sans-serif;
 }
 
+/* CABECALHO */
 #cabecalho {
     border: 1px solid #000; /* borda */
-    border-radius: 5px; /* borda arredondada */
-    padding: 10px; /* espaco interno */
-    width: 500px;
-    margin-left: auto;
-    margin-right: auto;
-    
-    
+    border-radius: 5px; /* Borda Arredondada */
+    padding: 10px;  /* espaco interno */
 }
 
+.logo {
+    display: inline-block;
+}
 
+.menu {
+    display: inline-block;
+    margin-right: 30px;
+    margin-left: 30px;
+}
+
+.menu-link {
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.form-pesquisa {
+    display: inline-block;
+    margin-top: 15px;
+}
+
+/* CONTEUDO */
 
 h1 {
-    /* propriedade: valor; */
-    color: red;
+    color: red; /* cor do título principal  */
 }
 
-
 li {
-    /* tirar os pontos */
+    /* Tirar os pontos */
     list-style: none;
     
-    /* deixar um ao lado do outro */
+    /* Deixar um ao lado do outro  */
     display: inline-block;
 }
 
 .centralizar {
     margin-right: auto;
     margin-left: auto;
-    width: 500px;
+    width: 700px;    
+}
+
+.img-principal {
+    float: left;  /* flutuar para esquerda */
+}
+
+.img-list {
+    clear: left; /* "liberar" a flutuação da esquerda */
+}
+
+
+/* RODAPE */
+#rodape {
+    border-top: 1px solid #222;
+}
+
+#rodape p {
+    font-size: 12px;
+    text-align: center;
 }
